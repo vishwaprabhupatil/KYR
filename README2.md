@@ -1,16 +1,21 @@
-# kyy
+## ⚠️ IMPORTANT: Model Setup Required
 
-A new Flutter project.
+Before running the project, you must download and place the required **GGUF model file**.
 
-## Getting Started
+> 🚨 This step is mandatory — the application will not work without this model.
 
-This project is a starting point for a Flutter application.
+### 📥 Download the Model
+Get the GGUF file from the link below:  
+👉 [Download GGUF Model](https://drive.google.com/file/d/1pnqjFVwf5rlBkE0U__wiw3OKWqanO6Rm/view?usp=sharing)
 
-A few resources to get you started if this is your first Flutter project:
+### 📂 Place the File
+After downloading, move the file to: backend_temp/models/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ Final Check
+- Ensure the file is inside the `models` folder  
+- Do not rename the file (unless specified)  
+- Start the backend only after placing the model  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+💡 *Note:* The model is not included in this repository due to its large size.
